@@ -5,8 +5,8 @@ import org.openqa.selenium.By;
 public class GuruLoginPage {
 
     //Localizadores de elementos
-    public static By userInput = By.name("uid");
-    public static By passInput = By.name("password");
-    public static By loginButton = By.name("btnLogin");
+    public static By userInput = By.id("login_form_email");
+    public static By passInput = By.id("login_form_password");
+    public static By loginButton = By.className("btn btn-security col-12");
 
 }
